@@ -1,42 +1,41 @@
-.container-img {
+.grid-itens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.cartao-item {
+    aspect-ratio: 3/4;
+    background-color: #51a2a8;
+    border: solid 2px #0e6e75;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.personagem {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-}
-.personagem-imagem {
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
 }
 
-.personagem-nome {
-    margin-top: 10px;
-}
-
-.botao-arqueiro {
-    max-width: 7%;
+.itens-img {
     width: 100%;
-    margin-left: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
+    height: 90%;
+    padding-top: 0;
+}
+
+.botao-item {
+    font-size: 12px;
+    width: 100%;
+    color: white;
+    background-color: #51a2a8;
     border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
-/* .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 200px);
-    width: 100%;
-    gap: 20px;
-    max-width: 800px;
+.img-arqueiro {
+    width: 100px;
+    border-radius: 8px;
 }
-
-.itens {
-    height: 100px;
-
-    background-color: black;
-} */
