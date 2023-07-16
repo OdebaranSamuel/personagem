@@ -1,4 +1,4 @@
-# personagem
+# Projeto 01 da imersão dev, (mentoria com o Pedro Mrins).
 Esse projeto tem dois sites, um que será uma tela de login e o outro que será um site com itens e descrições desses itens 
 para as pessoas clicarem no item e irem montando em uma lista.
 
