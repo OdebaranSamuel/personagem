@@ -13,7 +13,7 @@ const validaDados = (evento) => {
 
 const enviaDados = (evento) => {
     evento.preventDefault();
-    window.location = "heroi.html";
+    window.location = "mochila.html";
     localStorage.setItem("personagem", input[0].value);
 };
 
